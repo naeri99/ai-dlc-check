@@ -73,6 +73,10 @@ uv pip install --python "$VENV_DIR/bin/python" fastapi "uvicorn[standard]"
 log "  → streamlit"
 uv pip install --python "$VENV_DIR/bin/python" streamlit
 
+# PDF parsing + text chunking (for RAG)
+log "  → pymupdf, langchain-text-splitters (PDF parsing & chunking)"
+uv pip install --python "$VENV_DIR/bin/python" pymupdf langchain-text-splitters
+
 # ──────────────────────────────────────────
 # 5. Node.js + TypeScript server packages
 # ──────────────────────────────────────────
@@ -122,6 +126,7 @@ echo "    - elasticsearch
 echo "    - strands-agents"
 echo "    - fastapi, uvicorn"
 echo "    - streamlit"
+echo "    - pymupdf, langchain-text-splitters"
 echo ""
 echo "  [TypeScript] Installed packages:"
 echo "    - typescript, ts-node, @types/node"
