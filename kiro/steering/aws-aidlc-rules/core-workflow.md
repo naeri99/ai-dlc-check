@@ -4,6 +4,12 @@
 ## Adaptive Workflow Principle
 **The workflow adapts to the work, not the other way around.**
 
+## 한글 무조건 사용 
+
+## Docker pull도 안됨 가지고 있는 docker image 활용
+
+## WebSearch를 금지하고 존재하는 컴퓨터 환경내에서 찾아서 AI-DCL를 진행할 수있도록 해줘 
+
 The AI model intelligently assesses what stages are needed based on:
 1. User's stated intent and clarity
 2. Existing codebase state (if any)
