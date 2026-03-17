@@ -1,3 +1,6 @@
+### git clone 
+- git clone https://github.com/naeri99/ai-dlc-check.git
+
 ### install vscode web first 
 - source ./vscode/install-code-server.sh
 - 이후 http://{address}:8080 으로 접속하면 vscode web에 접속 가능 
