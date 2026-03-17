@@ -4,6 +4,8 @@
 ## Adaptive Workflow Principle
 **The workflow adapts to the work, not the other way around.**
 
+## 항상 유저의 요청이 오면 docker에 있는 시스템을 바탕으로 선택하여 코드를 개발해
+
 ## 한글 무조건 사용 
 
 ## Docker pull도 안됨 가지고 있는 docker image 활용

@@ -1,12 +1,17 @@
-## python 사용할때 꼭 uv 활용
+## python 사용할때 꼭 uv 활용 
 ```
-source /home/ec2-user/kirotest/.venv/bin/activate && uv run python ...
+source ./.venv/bin/activate && uv run python ...
 ```
+
+## 외부 python package 설치 불가 ! 꼭 지켜야함 
 
 ## Bedrock 사용
 - global.anthropic.claude-sonnet-4-6
 - global.anthropic.claude-opus-4-6-v1
 - global.anthropic.claude-haiku-4-5-20251001-v1:0 (경량)
+
+## embedding model 
+- amazon.titan-embed-text-v2:0
 
 ---
 
